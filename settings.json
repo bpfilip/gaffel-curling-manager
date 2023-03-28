@@ -1,0 +1,27 @@
+{
+    "port": 3000,
+    "obsPort": 4444,
+    "companionPort": 7000,
+    "scoreboardStyles": {
+        "layout-style": "picture-round",
+        "font": "Exo",
+        "primary-background": "#3960A4FF",
+        "secondary-background": "#3960A4FF",
+        "primary-text": "#FFFFFFFF",
+        "secondary-text": "#FFFFFFFF",
+        "primary-text-size": "64",
+        "secondary-text-size": "84",
+        "image-size": "110",
+        "animate": false
+    },
+    "lowerThirdStyles": {
+        "layout-style": "standard",
+        "font": "Exo",
+        "primary-background": "#17BB7FFF",
+        "secondary-background": "#17BB7FFF",
+        "primary-text": "#1C2BFFFF",
+        "secondary-text": "#000000FF",
+        "text-size": "64",
+        "image-size": "110"
+    }
+}

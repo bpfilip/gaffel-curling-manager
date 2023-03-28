@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lower Third</title>
+	<link rel="stylesheet" href="lowerThird.css">
+	<script>
+		document.documentElement.style.setProperty("--layout-style", "standard");
+		document.documentElement.style.setProperty("--font", "Exo");
+		document.documentElement.style.setProperty("--primary-background", "#BBBBBBFF");
+		document.documentElement.style.setProperty("--secondary-background", "#888888FF");
+		document.documentElement.style.setProperty("--primary-text", "#000000FF");
+		document.documentElement.style.setProperty("--secondary-text", "#000000FF");
+		document.documentElement.style.setProperty("--text-size", "36");
+		document.documentElement.style.setProperty("--image-size", "36");
+	</script>
+	<script src="lib/socket.io.min.js"></script>
+	<script defer src="lowerThird.js"></script>
+</head>
+
+<body>
+	<div class="lowerThird">
+		<img id="picture" />
+		<div class="names">
+			<span id="currentPlayer"></span>
+			<span id="team">GE</span>
+		</div>
+	</div>
+</body>
+
+</html>

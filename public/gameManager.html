@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game Manager</title>
+	<link rel="stylesheet" href="gameManager.css">
+	<script src="lib/socket.io.min.js"></script>
+	<script defer src="gameManager.js"></script>
+</head>
+
+<body>
+	<div class="nextPlayers">
+		<h1>Spiller nu:</h1>
+		<h2 id="currentPlayer"></h2>
+		<h2>Næste spiller:</h2>
+		<h3 id="nextPlayer"></h3>
+		<h2>Runde:</h2>
+		<h3 id="round"></h3>
+		<button class="nextPlayer" onclick="nextPlayer()">Næste Spiller</button>
+		<button class="nextPlayer" onclick="reset()">Nulstil</button>
+		<button class="nextPlayer" onclick="reload()">Reload</button>
+	</div>
+	<div class="scoreboard">
+		<h1>Scoreboard</h1>
+		<div id="scoreboard"></div>
+		<div id="scoreInput">
+
+		</div>
+	</div>
+
+</body>
+
+</html>

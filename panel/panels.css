@@ -1,0 +1,26 @@
+#panels {
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+	width: 80%;
+}
+
+#panels div .addresses a {
+	display: block;
+}
+
+.content .help img {
+	width: 75%;
+	margin: 5px;
+}
+
+.content .help p {
+	margin: 16px;
+	max-width: 60%;
+}
+
+.content .help {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}

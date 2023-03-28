@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="scoreboard.css">
+	<script src="lib/jscolor.js"></script>
+	<script src="scoreboard.js"></script>
+</head>
+
+<body>
+	<div class="sidebar">
+		<a href="players.html"><img src="img/users.svg"></a>
+		<a href="scoreboard.html"><img src="img/scoreboard.svg"></a>
+		<a href="settings.html"><img src="img/settings.svg"></a>
+		<a href="lowerThirds.html"><img src="img/screen.svg"></a>
+		<a href="panels.html"><img src="img/help.svg"></a>
+	</div>
+	<div class="content">
+		<h1>Scoreboard Settings</h1>
+
+		<div id="styles">
+			<div class="style">
+				<label for="layout-style">layout-style:</label>
+				<select class="input" onchange="sendStyles(event)" type="" name="layout-style">
+					<option value="standard">Standard</option>
+					<option value="bottom">Bottom</option>
+					<option value="picture">Picture</option>
+					<option value="picture-round">Round picture</option>
+				</select>
+			</div>
+			<div class="style">
+				<label for="font">font:</label>
+				<input class="input" type="text" onchange="sendStyles()" name="font">
+			</div>
+			<div class="style">
+				<label for="primary-background">primary-background:</label>
+				<input class="input" onchange="sendStyles()" data-jscolor="{format:'hexa'}" name="primary-background"
+					value="#888888">
+			</div>
+			<div class="style">
+				<label for="secondary-background">secondary-background:</label>
+				<input class="input" onchange="sendStyles()" data-jscolor="{format:'hexa'}" name="secondary-background"
+					value="#bbbbbb">
+			</div>
+			<div class="style">
+				<label for="primary-text">primary-text:</label>
+				<input class="input" onchange="sendStyles()" data-jscolor="{format:'hexa'}" name="primary-text"
+					value="#000000">
+			</div>
+			<div class="style">
+				<label for="secondary-text">secondary-text:</label>
+				<input class="input" onchange="sendStyles()" data-jscolor="{format:'hexa'}" name="secondary-text"
+					value="#000000">
+			</div>
+			<div class="style">
+				<label for="primary-text-size">primary-text-size:</label>
+				<input class="input" onchange="sendStyles()" type="number" name="primary-text-size" value="36">
+			</div>
+			<div class="style">
+				<label for="secondary-text-size">secondary-text-size:</label>
+				<input class="input" onchange="sendStyles()" type="number" name="secondary-text-size" value="36">
+			</div>
+			<div class="style">
+				<label for="image-size">image-size:</label>
+				<input class="input" onchange="sendStyles()" type="number" name="image-size" value="36">
+			</div>
+			<div class="style">
+				<label for="animate">animate:</label>
+				<input id="animateCheckbox" class="input" onchange="sendStyles()" type="checkbox" name="animate">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

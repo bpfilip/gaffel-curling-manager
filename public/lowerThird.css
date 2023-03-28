@@ -1,0 +1,51 @@
+body {
+	margin: 0px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.lowerThird {
+	position: absolute;
+	left: 150px;
+	bottom: 100px;
+	width: 800px;
+	height: var(--image-size);
+
+	border-radius: 100px;
+
+	padding: 20px;
+
+	display: flex;
+	align-items: center;
+	
+	background: #3960a4;
+	font-weight: bold;
+}
+
+.lowerThird #picture {
+	width: var(--image-size);
+	height: var(--image-size);
+	border-radius: 50%;
+	object-fit: cover;
+	aspect-ratio: 1;
+	/* margin: 30px; */
+}
+
+.lowerThird .names {
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.lowerThird #team {
+	color: white;
+	font-family: var(--font);
+	font-size: 32px;
+}
+
+.lowerThird #currentPlayer {
+	line-height: 48px;
+	color: white;
+	font-family: var(--font);
+	font-size: var(--text-size);
+}

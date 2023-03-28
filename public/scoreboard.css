@@ -1,0 +1,127 @@
+body {
+	margin: 0px;
+}
+
+.scoreItem {
+	font-family: var(--font);
+	font-size: var(--primary-text-size);
+	padding: 20px;
+	position: relative;
+	top: 0px;
+
+	margin: 20px;
+	border-radius: var(--image-size);
+	font-weight: bold;
+}
+
+.scoreItem .names {
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.scoreItem .team {
+	color: var(--primary-text);
+	font-family: var(--font);
+	font-size: 32px;
+}
+
+.scoreItem .name {
+	line-height: 48px;
+	color: var(--primary-text);
+	font-family: var(--font);
+	font-size: var(--text-size);
+}
+
+.scoreItem:nth-child(even) {
+	background-color: var(--primary-background);
+	color: var(--primary-text);
+}
+
+.scoreItem:nth-child(odd) {
+	background-color: var(--secondary-background);
+	color: var(--secondary-text);
+}
+
+.score {
+	float: right;
+	margin-right: 20px;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	/* align-items: flex-end; */
+	/* height: 100%; */
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.bottom .scoreItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: max-content;
+	flex: 1;
+}
+
+.bottom .scoreItem:nth-child(even) {
+	background-color: var(--primary-background);
+	color: var(--primary-text);
+}
+
+.bottom .scoreItem:nth-child(odd) {
+	background-color: var(--secondary-background);
+	color: var(--secondary-text);
+	
+}
+
+.bottom .scoreItem .name {
+	font-size: var(--primary-text-size);
+	text-align: center;
+}
+
+.bottom .scoreItem .score {
+	font-size: var(--secondary-text-size);
+}
+
+.picture .scoreItem img {
+	width: var(--image-size);
+}
+
+.picture .scoreItem {
+	display: flex;
+	align-items: center;
+}
+
+.picture .scoreItem .name {
+	/* margin-left: calc(var(--primary-text-size)*0.2); */
+}
+
+.picture .scoreItem .score {
+	margin-left: auto;
+}
+
+.picture-round .scoreItem img {
+	width: var(--image-size);
+	height: var(--image-size);
+	border-radius: 50%;
+	object-fit: cover;
+	aspect-ratio: 1;
+}
+
+.picture-round .scoreItem {
+	display: flex;
+	align-items: center;
+}
+
+.picture-round .scoreItem .name {
+	/* margin-left: calc(var(--primary-text-size)*0.2); */
+}
+
+.picture-round .scoreItem .score {
+	margin-left: auto;
+}

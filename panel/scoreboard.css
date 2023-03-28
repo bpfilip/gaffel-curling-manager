@@ -1,0 +1,15 @@
+#styles {
+	display: flex;
+	flex-direction: column;
+}
+
+#styles div {
+	display: flex;
+	margin: 5px;
+	justify-content: space-between;
+}
+
+#styles div label {
+	margin: 5px;
+	font-size: 18px;
+}

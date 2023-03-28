@@ -1,0 +1,22 @@
+body {
+	margin: 0px;
+	background-color: black;
+
+	color: white;
+	font-family: monospace, sans-serif;
+	font-size: 50px;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.scoreItem {
+	padding: 5px;
+	position: relative;
+	top: 0px;
+	font-size: larger;
+}
+
+.score {
+	float: right;
+}

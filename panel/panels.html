@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="panels.css">
+	<script src="panels.js"></script>
+</head>
+
+<body>
+	<div class="sidebar">
+		<a href="players.html"><img src="img/users.svg"></a>
+		<a href="scoreboard.html"><img src="img/scoreboard.svg"></a>
+		<a href="settings.html"><img src="img/settings.svg"></a>
+		<a href="lowerThirds.html"><img src="img/screen.svg"></a>
+		<a href="panels.html"><img src="img/help.svg"></a>
+	</div>
+	<div class="content">
+		<h1>Panels</h1>
+
+		<div id="panels">
+			<div class="">
+				<h2>Scoreboard</h2>
+				<p>Hvis der er flere er det højst sandsynligt den øverste, <br />prøv en af de andre hvis det ikke virker.</p>
+				<div class="addresses" id="addresses-scoreboard">
+				</div>
+			</div>
+			<div class="">
+				<h2>Score panels</h2>
+				<p>Hvis der er flere er det højst sandsynligt den øverste, <br />prøv en af de andre hvis det ikke virker.</p>
+				<div class="addresses" id="addresses-panel">
+				</div>
+			</div>
+		</div>
+		<div class="help">
+			<p>For at få scoreboardet ind i OBS skal du oprette en Browser source.</p>
+			<img src="img/help1.png" alt="">
+			<p>I URL feltet skal du indtaste addressen fra ovenover. Her kan du også ændre på størrelsen af
+				scoreboardet. Det er bedre at gøre den lidt for stor her og sætte skrift størrelsen op under
+				indstillinger i kontrol panelet, og så ikke hive den størrer når den er kommet ind på skærmen i OBS.</p>
+			<img src="img/help2.png" alt="">
+			<p>For at undgå at det bliver pixeleret er det bedst ikke at gøre den alt for stor her, men bruge højde og
+				bredte i egenskaber. Her kan du også rykke rundt på scoreboardet, for at placere den det rigtige sted på
+				skærmen.</p>
+			<img src="img/help3.png" alt="">
+		</div>
+	</div>
+</body>
+
+</html>

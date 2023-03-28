@@ -1,0 +1,12 @@
+.trash {
+	width: 24px;
+}
+
+img {
+	width: 48px;
+}
+
+.player {
+	display: flex;
+	align-items: center;
+}

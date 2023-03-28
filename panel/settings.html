@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="settings.css">
+	<script src="settings.js"></script>
+</head>
+
+<body>
+	<div class="sidebar">
+		<a href="players.html"><img src="img/users.svg"></a>
+		<a href="scoreboard.html"><img src="img/scoreboard.svg"></a>
+		<a href="settings.html"><img src="img/settings.svg"></a>
+		<a href="lowerThirds.html"><img src="img/screen.svg"></a>
+		<a href="panels.html"><img src="img/help.svg"></a>
+	</div>
+	<div class="content">
+		<h1>Settings</h1>
+
+		<div id="settings">
+			<div class="setting">
+				<label for="port">Port:</label>
+				<input id="port" class="input" onchange="updatePort(event)" type="number" name="port" min="1"
+					max="65535" value="">
+			</div>
+			<!-- <div class="setting">
+				<label for="obsPort">OBS Port:</label>
+				<input id="obsPort" class="input" onchange="updateOBSPort(event)" type="number" name="obsPort" min="1"
+					max="65535" value="">
+			</div>
+			<div class="setting">
+				<label for="companionPort">Companion Port: </label>
+				<input id="companionPort" class="input" onchange="companionPort(event)" type="number"
+					name="companionPort" min="1" max="65535" value="">
+			</div> -->
+		</div>
+
+		<p>Restart the program after changing the settings!</p>
+	</div>
+</body>
+
+</html>

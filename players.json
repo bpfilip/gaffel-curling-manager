@@ -1,0 +1,40 @@
+{
+    "players": [
+        {
+            "name": "Dicte",
+            "score": 12,
+            "number": 11,
+            "team": "SE"
+        },
+        {
+            "name": "Flow",
+            "score": 13,
+            "number": 1,
+            "team": "GE"
+        },
+        {
+            "name": "Mille",
+            "score": 10,
+            "number": 12,
+            "team": "SE"
+        },
+        {
+            "name": "Nilfisk",
+            "score": 11,
+            "number": 5,
+            "team": "GE"
+        },
+        {
+            "name": "Thea B",
+            "score": 18,
+            "team": "SE",
+            "number": 15
+        },
+        {
+            "name": "Totty",
+            "score": 7,
+            "number": 7,
+            "team": "GE"
+        }
+    ]
+}
