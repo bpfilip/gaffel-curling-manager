@@ -50,7 +50,7 @@ function updateScoreboard(scoreboard) {
 
 		name.innerText = scoreboard[i].name;
 		score.innerText = scoreboard[i].score;
-		team.innerText = `${scoreboard[i].team} - ${scoreboard[i].number}`;
+		team.innerText = `${scoreboard[i].team}`;
 
 		if (pictureMode) {
 			const img = document.createElement("img");

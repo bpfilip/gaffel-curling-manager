@@ -13,7 +13,7 @@ socket.on("gameData", (gameData) => {
 	console.log(gameData);
 	const player = gameData.players[gameData.currentPlayer]
 	document.getElementById("currentPlayer").innerText = player.name;
-	document.getElementById("team").innerText = `${player.team} - ${player.number}`;
+	document.getElementById("team").innerText = `${player.team}`;
 	document.getElementById("picture").src = `profiles/${player.number}.png`;
 })
 
