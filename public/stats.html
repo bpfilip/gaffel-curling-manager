@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Stats</title>
+	<link rel="stylesheet" href="stats.css">
+	<script>
+		document.documentElement.style.setProperty("--layout-style", "standard");
+		document.documentElement.style.setProperty("--font", "Exo");
+		document.documentElement.style.setProperty("--primary-background", "#BBBBBBFF");
+		document.documentElement.style.setProperty("--secondary-background", "#888888FF");
+		document.documentElement.style.setProperty("--primary-text", "#000000FF");
+		document.documentElement.style.setProperty("--secondary-text", "#000000FF");
+		document.documentElement.style.setProperty("--text-size", "36");
+		document.documentElement.style.setProperty("--image-size", "36");
+	</script>
+	<script src="lib/socket.io.min.js"></script>
+	<script defer src="stats.js"></script>
+</head>
+
+<body>
+	<div class="stats">
+		<div class="bane">
+			<div id="GoldL" class="Gold">25%</div>
+			<div id="BlueL" class="Blue">25%</div>
+			<div id="GreenL" class="Green">25%</div>
+			<div id="DarkL" class="Dark">25%</div>
+			<div id="GoldM" class="Gold">25%</div>
+			<div id="BlueM" class="Blue">25%</div>
+			<div id="GreenM" class="Green">25%</div>
+			<div id="DarkM" class="Dark">25%</div>
+			<div id="GoldR" class="Gold">25%</div>
+			<div id="BlueR" class="Blue">25%</div>
+			<div id="GreenR" class="Green">25%</div>
+			<div id="DarkR" class="Dark">25%</div>
+		</div>
+		<div class="stat" id="off">OB: 25%</div>
+		<div class="stat" id="bulldozer">Bulldozer: 25%</div>
+		<div class="stat" id="blocker">Blocker: 25%</div>
+	</div>
+</body>
+
+</html>

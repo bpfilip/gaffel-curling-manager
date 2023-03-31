@@ -5,3 +5,4 @@ require("./playerView");
 require("./gameManager");
 require("./scoreboard");
 require("./lowerThird");
+require("./stats");

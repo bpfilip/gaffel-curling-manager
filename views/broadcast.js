@@ -7,6 +7,7 @@ function broadcastGameData() {
 	io.of("/playerView").emit("gameData", gameData)
 	io.of("/scoreboard").emit("gameData", gameData)
 	io.of("/lowerThird").emit("gameData", gameData)
+	io.of("/statsManager").emit("gameData", gameData)
 }
 
 function reload() {
@@ -14,6 +15,7 @@ function reload() {
 	io.of("/playerView").emit("reload")
 	io.of("/scoreboard").emit("reload")
 	io.of("/lowerThird").emit("reload")
+	io.of("/statsManager").emit("reload")
 }
 
 module.exports = { broadcastGameData, reload }
