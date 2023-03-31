@@ -19,6 +19,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-top: 15px;
 }
 
 .scoreItem .team {
@@ -49,6 +50,27 @@ body {
 	margin-right: 20px;
 }
 
+.scoreItem .score {
+	margin-right: 10px;
+	font-size: 75px;
+}
+
+.scoreItem .names .name {
+	font-size: 64px;
+}
+
+.scoreItem .points {
+	font-size: 40px;
+	margin-left: 0px;
+	align-self: flex-end;
+	margin-bottom: 20px;
+	margin-right: 50px;
+}
+
+.scoreItem img {
+	filter: drop-shadow(5px 5px 10px black);
+}
+
 .bottom {
 	display: flex;
 	justify-content: center;
@@ -76,7 +98,7 @@ body {
 .bottom .scoreItem:nth-child(odd) {
 	background-color: var(--secondary-background);
 	color: var(--secondary-text);
-	
+
 }
 
 .bottom .scoreItem .name {

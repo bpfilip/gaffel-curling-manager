@@ -41,15 +41,18 @@ function updateScoreboard(scoreboard) {
 		const name = document.createElement("span");
 		const team = document.createElement("span");
 		const score = document.createElement("span");
+		const points = document.createElement("span");
 
 		names.className = "names"
 		div.className = "scoreItem";
 		name.className = "name";
 		team.className = "team";
 		score.className = "score";
+		points.className = "points";
 
 		name.innerText = scoreboard[i].name;
 		score.innerText = scoreboard[i].score;
+		points.innerText = "Points";
 		team.innerText = `${scoreboard[i].team}`;
 
 		if (pictureMode) {
@@ -63,6 +66,7 @@ function updateScoreboard(scoreboard) {
 
 		div.appendChild(names);
 		div.appendChild(score);
+		div.appendChild(points);
 		elements.appendChild(div);
 	}
 	document.getElementById("scoreboard").innerHTML = "";
